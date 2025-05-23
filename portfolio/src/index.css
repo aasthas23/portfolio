@@ -53,7 +53,7 @@
 
 @media (max-width: 640px) {
   .cloudd {
-    bottom: calc(100vh - 25%);
+    bottom: calc(100vh - 30%);
     
   }
 }

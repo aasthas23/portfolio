@@ -26,21 +26,21 @@ function App() {
     />
     
       <div className="h-[15%] w-[60%] flex justify-between">
-        <div className="flex">
+        <div className="flex justify-evenly">
           {/* Here I have used the buttons and on clicking that certain part of the code will be changed  */}
           <button
-          className={`gap-1 sm:text-[12px] md:text-[18px] lg:text-[20px] py-5 md:py-9 hover:text-[22px] cursor-pointer dark:text-[#fffffc]
+          className={`gap-1 sm:text-[14px] md:text-[18px] lg:text-[20px] py-5 md:py-9 hover:text-[22px] cursor-pointer dark:text-[#fffffc] text-[14px]
             ${page === "home" ? "text-[#3A606E] font-bold underline underline-offset-8 decoration-3" : "text-[#909090]"}
           `}
           onClick={() => setPage("home")}
         >
            HOME
           </button>
-          <button className={`gap-1 sm:text-[12px] md:text-[18px] lg:text-[20px] py-5 md:py-9 px-10 cursor-pointer hover:text-[22px] dark:text-[#fffffc]
+          <button className={`gap-1  text-[14px] sm:text-[14px] md:text-[18px] lg:text-[20px] py-5 md:py-9 px-10 cursor-pointer hover:text-[22px] dark:text-[#fffffc]
              ${page === "projects" ? "text-[#3A606E] font-bold underline underline-offset-8 decoration-3" : "text-[#909090]"}`} onClick={() => setPage("projects")}>
             PROJECTS
           </button>
-          <button className={`gap-1 sm:text-[12px] md:text-[18px] lg:text-[20px] py-5 md:py-9 cursor-pointer hover:text-[22px] dark:text-[#fffffc]
+          <button className={`gap-1 text-[14px] sm:text-[14px] md:text-[18px] lg:text-[20px] py-5 md:py-9 cursor-pointer hover:text-[22px] dark:text-[#fffffc]
              ${page === "about" ? "text-[#3A606E] font-bold underline underline-offset-8 decoration-3" : "text-[#909090]"}`} onClick={() => setPage("about")}>
             ABOUT
           </button>
