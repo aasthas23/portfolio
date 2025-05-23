@@ -1,11 +1,11 @@
 function About() {
   return (
-    <div className="h-auto w-[98%] justify-center text-[#3A606E] dark:text-[#ffffff] z-10">
+    <div className="h-auto w-[98%] justify-center text-[#3A606E] dark:text-[#ffffff] z-[1000]">
       <h2 className="text-[23px] font-medium">
         Relevant Coursework
       </h2>
       <br />
-     <div className="border-1 border-[#f2f2f2] rounded-3xl h-50 bg-[#f5f5f567] z-10 overflow-y-scroll">
+     <div className="border-1 border-[#f2f2f2] rounded-3xl h-50 bg-[#f5f5f567] z-1000 overflow-y-scroll">
     <ul className="columns-1 list-none py-6 px-25 m-0 justify-between items-center font-light sm:text-[10px] md:text-[16px] sm:columns-1 md:columns-2 text-[12px]">
         <li className="relative pl-5 before:content-['►'] before:absolute before:left-0 before:text-gray-700 mb-2">Data Structures and Algorithms</li>
         <li className="relative pl-5 before:content-['►'] before:absolute before:left-0 before:text-gray-700 mb-2">Systems Programming in UNIX/Linux</li>
