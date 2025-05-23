@@ -1,7 +1,7 @@
 function Projects() {
   return (
     <div className=" h-auto w-[98%] justify-center text-[#3A606E] dark:text-[#ffffff] z-1000">
-      <img src="/hacklab .png" alt="Hacklab" className="rounded-4xl items-center mb-5"/>
+      <img src="/portfolio/hacklab .png" alt="Hacklab" className="rounded-4xl items-center mb-5"/>
         <a href="https://github.com/acm-projects/HackLab">
             <h2 className="text-[23px] font-medium">
                 1. Hacklab

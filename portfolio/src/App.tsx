@@ -15,13 +15,13 @@ function App() {
 
     <div className={`h-screen w-screen flex flex-col justify-start items-center py-[3%] gap-10 dark:bg-[#3A606E] ${mode && "dark"}`}>
       <img
-      src="../public/cloud.png"
-      alt="Decorative"
+      src="/portfolio/cloud.png"
+      alt="Decorative1"
       className="absolute left-0 w-[45%] h-auto z-[50] cloud dark:opacity-20"
     />
     <img
-      src="../public/cloud.png"
-      alt="Decorative"
+      src="/portfolio/cloud.png"
+      alt="Decorative2"
       className="absolute right-0 h-auto z-[50] cloudd dark:opacity-20"
     />
     
