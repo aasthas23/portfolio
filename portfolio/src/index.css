@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@tailwind utilities;
+
+
+@layer base {
+  * {
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+.cloud{
+  position: absolute;
+  top: calc(100vh - 35%);
+  left: 0;
+  width: 30%;
+  transform: translateX(0px);
+  z-index: 10;
+}
+
+@media (max-width: 640px) {
+  .cloud {
+    top: calc(100vh - 25%);
+    transform: translate(0px, 40px);
+  }
+}
+
+@media (min-width: 640px) {
+  .cloud {
+    top: calc(100vh - 25%);
+    transform: translate(0px, 40px);
+  }
+}
+
+@media (min-width: 1000px) {
+  .cloud {
+    top: calc(100vh - 40%);
+    transform: translate(00px, 60px);
+  }
+}
+
+.cloudd{
+  position: absolute;
+  bottom: calc(100vh - 35%);
+  right: 0;
+  width: 30%;
+  transform: translateX(0px);
+  z-index: 10;
+}
+
+@media (max-width: 640px) {
+  .cloudd {
+    bottom: calc(100vh - 25%);
+    
+  }
+}
+
+@media (min-width: 640px) {
+  .cloudd {
+    bottom: calc(100vh - 25%);
+    
+  }
+}
+
+@media (min-width: 1000px) {
+  .cloudd {
+    bottom: calc(100vh - 40%);
+    
+  }
+}
