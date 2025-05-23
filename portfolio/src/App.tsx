@@ -58,12 +58,12 @@ function App() {
           <div className=" gap-4 h-[80%] w-[60%] flex flex-col justify-evenly items-center text-[#3A606E] dark:text-[#fffffc] z-10">
             <div className="h-[70%] w-full justify-between text-[15px] sm:text-[15px] md:text-[20px] overflow-y-scroll">
               <br />
-              <h2 className='sm:text-[15px] md:text-[20px]'>Hello! I'm Aastha Sheth</h2>
+              <h2 className='sm:text-[15px] md:text-[20px] text-[14px]'>Hello! I'm Aastha Sheth</h2>
               <br />
               <br />
-              <p className='sm:text-[15px] md:text-[20px]'>
+              <p className='sm:text-[15px] md:text-[20px] font-light'>
                 I’m an upcoming junior majoring in Computer Science at the University of Texas at Dallas. I enjoy building things and exploring new ideas through hands-on projects. Outside of academics, I find creative balance through painting and stargazing—two ways I unwind and stay inspired. </p>
-              <p className='sm:text-[15px] md:text-[20px]'>Within computer science, I’m still carving out my path, but I’m especially drawn to full stack development. I’m currently focused on strengthening my frontend skills and gradually diving deeper into backend systems and AI technologies.
+              <p className='sm:text-[15px] md:text-[20px] font-light'>Within computer science, I’m still carving out my path, but I’m especially drawn to full stack development. I’m currently focused on strengthening my frontend skills and gradually diving deeper into backend systems and AI technologies.
                   My technical skill set includes C++, Java, Python, HTML/CSS, JavaScript, and experience with modern frameworks like React and Next.js.
                </p>
             </div>
