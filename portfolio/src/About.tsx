@@ -21,7 +21,23 @@ function About() {
     <br />
     <br />
     <br />
+    
     <h2 className="text-[23px] font-medium">
+        Experience
+      </h2>
+      <br />
+        <ul>
+            <li>
+                <h3 className="text-[18px] font-medium before:content-['|']"> Student Software Developer - ACM Projects at UTD</h3> 
+                <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]"> • Collaborating in a semester-long ACM initiative with a student team to develop HackLab, a full-stack web app that empowers early-career students to create, join, and collaborate on ongoing programming projects.</p>
+               <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]">• Designed and implemented interactive UI components using React, Next.js, and TailwindCSS; integrated frontend with backend APIs, and set up GitHub authentication and AWS-powered backend services for a seamless user experience.</p> <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]"> • Collaborating in a semester-long ACM initiative with a student team to develop HackLab, a full-stack web app that empowers early-career students to create, join, and collaborate on ongoing programming projects.</p> <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]">• Designed and implemented interactive UI components using React, Next.js, and TailwindCSS; integrated frontend with backend APIs, and set up GitHub authentication and AWS-powered backend services for a seamless user experience.
+                </p> 
+            </li>
+        </ul>
+      <br />
+    <br />
+    <br />
+     <h2 className="text-[23px] font-medium">
         Certifications
       </h2>
       <br />
@@ -34,22 +50,7 @@ function About() {
             </li>
         </ul>
 
-        <br />
-    <br />
-    <br />
-    <h2 className="text-[23px] font-medium">
-        Experience
-      </h2>
-      <br />
-        <ul>
-            <li>
-                <h3 className="text-[18px] font-medium before:content-['|']"> Student Software Developer - ACM UTD</h3> 
-                <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]"> • Collaborating in a semester-long ACM initiative with a student team to develop HackLab, a full-stack web app that empowers early-career students to create, join, and collaborate on ongoing programming projects.</p>
-               <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]">• Designed and implemented interactive UI components using React, Next.js, and TailwindCSS; integrated frontend with backend APIs, and set up GitHub authentication and AWS-powered backend services for a seamless user experience.</p> <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]"> • Collaborating in a semester-long ACM initiative with a student team to develop HackLab, a full-stack web app that empowers early-career students to create, join, and collaborate on ongoing programming projects.</p> <p className="font-light text-[12px] sm:text-[15px] md:text-[20px]">• Designed and implemented interactive UI components using React, Next.js, and TailwindCSS; integrated frontend with backend APIs, and set up GitHub authentication and AWS-powered backend services for a seamless user experience.
-                </p> 
-            </li>
-        </ul>
-     
+        
     </div>
   );
 }

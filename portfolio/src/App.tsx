@@ -42,7 +42,7 @@ function App() {
           </button>
           <button className={`gap-1 text-[14px] sm:text-[14px] md:text-[18px] lg:text-[20px] py-5 md:py-9 cursor-pointer hover:text-[22px] dark:text-[#fffffc]
              ${page === "about" ? "text-[#3A606E] font-bold underline underline-offset-8 decoration-3" : "text-[#909090]"}`} onClick={() => setPage("about")}>
-            ABOUT
+            BACKGROUND
           </button>
           </div>
           <button className="py-5 md:py-9 flex cursor-pointer dark:text-[#fffffc] justify-center items-center " onClick={toggleDarkMode}>
